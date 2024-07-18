@@ -1,3 +1,4 @@
+vim.cmd 'let g:netrw_liststyle = 3'
 require 'config.keymaps'
 require 'config.lazy'
 require 'config.options'
