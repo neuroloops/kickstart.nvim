@@ -26,7 +26,7 @@ keymap.set('n', '<leader>tf', '<cmd>tabnew %<CR>', { desc = 'Open current buffer
 keymap.set('n', '<C-s>', '<cmd>w<CR>', { desc = 'Save file' })
 keymap.set('i', '<C-s>', '<ESC><cmd>w<CR>a', { desc = 'Save file' })
 keymap.set('n', '<C-a>', 'ggVG', { desc = 'Select all' })
-keymap.set('n', '<leader>l', ':Lazy<CR>', { desc = 'Lazy' })
+keymap.set('n', '<leader>la', ':Lazy<CR>', { desc = 'Lazy' })
 
 keymap.set('n', '<leader>o', ':Telescope find_files<CR>', { desc = 'Open file' })
 

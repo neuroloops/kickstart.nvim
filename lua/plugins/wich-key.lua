@@ -13,7 +13,9 @@ return {
         { '<leader>r', group = '[R]ename' },
         { '<leader>s', group = '[S]earch' },
         { '<leader>w', group = '[W]orkspace' },
-        { '<leader>t', group = '[T]oggle' },
+        { '<leader>t', group = '[T]abs' },
+        { '<leader>l', group = '[L]int / Lazy' },
+        { '<leader>x', group = '[x] trouble/ todo' },
         { '<leader>h', group = 'Git [H]unk', mode = { 'n', 'v' } },
       }
     end,
